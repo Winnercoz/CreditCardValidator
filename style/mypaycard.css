@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #222222;
+   }
+   
+   #card{
+       margin: 0 auto;
+       padding: 5px;
+       width: 300px;
+       height: 170px;
+       border-radius: 8px 8px;
+       background-image: url("/img/8404-sea-wallpapers-hd.jpg");
+       background-position: 50%;
+       color: rgb(255, 255, 255);
+   }
+   
+   .bnk-name{
+       float:right;
+       margin: -90px 1px 0px 0px; 
+   }
+   
+   [data-card-number]{
+   text-align: center;
+   font-size: 16px;
+   margin: 55px 0px 0px 33px;
+   color: rgb(255, 255, 255);
+   }
+  
+   
+   [data-holder-name]>a{
+       color : rgb(255, 255, 255);
+       text-transform: capitalize;
+       text-decoration: none;
+   }
+
+   [data-holder-name]{
+       float: left;
+       color: white;
+       margin: 25px 0px 20px 5px;
+   }
+   
+   [data-card-type]{
+       float: right;
+       margin-top: 10px;
+   }
+   
+   [data-expiry]{
+       text-align: center;
+       margin: -50px 0px 20px 0px;
+       font-size: 10;
+   }
+
+   [data-input], button{
+       margin: 0 auto;
+
+   } 
+   img{
+       margin: 0px 0px 0px 5px;
+   }
